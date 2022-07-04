@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Favicon Tester</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon">
 </head>
 
 <body>
@@ -16,7 +17,14 @@
       <div class="container">
 
         <div class="box">
-          
+          <form>
+            <label class="f-header-1">Test your favicon</label>
+            <label class="upload f-paragraph-1"><span class="choose-file">Choose file</span>
+              <input type="file" id="favicon" name="filename" accept=".ico,.png">
+              <span class="filename f-paragraph-2"></span>
+            </label>
+            <i class="f-paragraph-2">Files must be ico or png format</i>
+          </form>
         </div>
 
       </div>
